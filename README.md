@@ -1,6 +1,11 @@
 # ComScan
 Crawls existing Microsoft header files and (re)generates found GUID, CLSID and similar UUID constants for reuse.
 
+Important note
+--------------
+Source code is written using one tab for two spaces.
+I'm sorry because it looks terrible on 1:8, but that's my preference.
+
 Ingredients and tools you will need to build this project
 ---------------------------------------------------------
 - ActiveState perl, this project is developed using "perl 5, version 20, subversion 2 (v5.20.2) built for MSWin32-x64-multi-thread"

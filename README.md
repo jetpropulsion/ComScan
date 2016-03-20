@@ -59,7 +59,9 @@ Build order
   - From the command line, change current directory to the directory you downloaded/unzipped the solution
   
   - Execute modified ComScan.pl redirecting its standard output to the "ScannedData.h" file, like this:
+    <pre>
       C:\Perl64\bin\perl.exe ComScan.pl >"ScannedData.h"
+    </pre>
       (you will still see the progress and analyzed file in real time, because script writes such messages to stderr)
   
   - Open solution file from Microsoft(R) Visual Studio(TM) (C)2015 and build it

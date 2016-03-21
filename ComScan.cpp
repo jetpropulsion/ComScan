@@ -71,12 +71,6 @@ std::string parse_hex(char const *text, std::size_t length)
 		p[ p_index++ ] = p_out;
 	}
 
-	if(p_index != sizeof(GUID))
-	{
-		std::cout << "provided GUID is not 16 octets long (it is " << JETLIB_INT32_FORMATA << p_index << " bytes long)" << std::endl;
-		throw std::exception();
-	}
-
 	return std::string(result.get(), p_index);
 }
 
